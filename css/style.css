@@ -1,0 +1,157 @@
+﻿html {
+   background:#000; 
+}
+
+body {-webkit-text-size-adjust: none;}
+input, button, textarea {-webkit-appearance: none;}
+input, textarea { background: transparent }
+
+body { 
+	padding:0px; 
+	margin: 0px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+	font-family: 'Trebuchet MS'; 	
+	font-size: 13px; 
+	
+	color: white; 
+	-ms-touch-action: none;
+}
+
+h2 {
+	font-variant: small-caps;
+	line-height: 48px;
+}
+
+#str img {
+    width: 64px;
+    height: 64px;
+	float: left;
+}
+#f {
+	float: right;
+	margin-right: -20px;
+}
+#i {
+	float: left;
+	margin-left: -20px;
+}
+
+#i,#f {
+	display: none;
+	width: 64px;
+	height: 64px;
+	overflow: hidden; 
+	position: relative;
+}
+
+#f span {
+	position: absolute;
+}
+
+#i span {
+	position: absolute;
+}
+
+#str {
+	width: 300px;
+	margin: auto;
+}
+
+#str h2 {
+	text-align: center;
+	border-bottom: 1px solid #6f6f6f;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#str .feat div { 
+	margin-top: 0.5em;
+	display: none;
+	line-height: 1.7em;
+}
+
+#str small {
+	text-align: center;
+	display: block;
+	margin-top: 50px;
+	font-size: 13px;
+}
+
+div>i {
+	border: 2px solid yellow;
+	color: yellow;
+	font-style: normal;
+	font-weight: 700;
+	padding: 0px;
+	border-radius: 10px;
+	margin: 1px 6px;
+	text-decoration: none;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 21px;
+    line-height: 16px;
+	width: 21px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div>s {
+	font-weight: 700;
+	padding: 0px;
+	border: 2px solid red;
+	border-radius: 10px;
+	margin: 1px 6px;
+	color: red;
+	text-decoration: none;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 21px;
+    line-height: 15px;
+	width: 21px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+button {
+	margin: auto;
+	margin-top: 20px;
+	width: 104px;
+	border: 2px #555 solid;
+	background: #6f6f6f;
+	line-height: 2.5em;
+	border-radius: 4px;
+	color: #ddf;
+	font-weight: bold;
+}
+
+#c-fg { 
+	-webkit-transform: translate3d(0px,0px,1px);
+	}	
+
+
+.lay {
+	position: absolute;
+	top:0;
+	left:0;
+	box-sizing: border-box;
+	/*border: 3px solid rgb(0, 25, 41);*/
+}
+
+/* @exclude */
+.debug {
+	pointer-events: none;
+	position: absolute;
+	top:0;
+	left:0;
+	box-sizing: border-box;
+	width: 100%;
+	height:auto;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+}
+/* @endexclude */
+
+.clr:after { content: ""; clear: both; }
+
+.hide { display: none; }
